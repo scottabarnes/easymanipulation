@@ -211,12 +211,12 @@ def add_mil_col(df,col):
 
 
 def show_all_col(df):
-    with pd.option_context('display.max_colwidth', None):
+    with pd.option_context('display.max_colwidth', 1000):
         display(df)
 
 def display_and_show_all(df):
     ''' Takes in a df and prints all columns and rows, max col size '''#
-    with pd.option_context("display.max_rows",1000,"display.max_columns",1000,'display.max_colwidth', None):
+    with pd.option_context("display.max_rows",1000,"display.max_columns",1000,'display.max_colwidth', 1000):
         display(df)
 
 def put_last_col_to_front(df):
