@@ -1,5 +1,7 @@
 # Easy Manipulation
 
+![](utility_package.gif)
+
 ## What is it?
 This package contains utility functions for quick data manipulation in pandas.
 
